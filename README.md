@@ -1,2 +1,2 @@
 # kentjacobs.net
-My personal website.
+My personal portfolio website.
