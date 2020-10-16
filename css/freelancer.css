@@ -78,9 +78,9 @@ section h2 {
 }
 
 
-.icon-background1 {
+/* .icon-background1 {
     color: blue;
-}
+} */
 .icon-background2 {
     color: #628ca5;
 }
@@ -365,9 +365,10 @@ a {
   color: #628ca5;
 }
 
-/* a:focus, a:hover, a:active {
-  color: #128f76;
-} */
+a:focus, a:hover, a:active {
+  color: #628ca5;
+  text-decoration: none;
+}
 
 .btn {
   border-width: 2px;
@@ -400,7 +401,31 @@ a {
   border-color: #2C3E50;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+/* .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+} */
+
+.big-icon {
+  font-size: 200px;
+  text-align: center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.fa-researchgate {
+  color: white;
+}
+
+.fa-university {
+  color: gold;
+}
+
+.fa-balance-scale {
+  color: red;
+}
+
+.fa-user {
+  color: grey
 }
